@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+header
+{
+    background-color: rgb(188, 186, 186);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 15px;
+}
+.contener
+{
+    background-color: rgb(72, 71, 71);
+    display: flex;
+    height: 400px;
+}
+.contener .content
+{
+    background-color: rgb(232, 230, 176);
+    width: 250px;
+    height: 340px;
+    padding:10px;
+    margin: 20px;
+    margin-left: 40px;
+}
+.contener .content h3
+{
+    text-align: center;
+    color: rgb(186, 177, 51);
+}
+.contener .content img
+{
+    width: 130px;
+    height:130px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.location
+{
+    background-image: url(./slide-01.jpg);
+}
+.location h1
+{
+    color: rgb(200, 138, 22);
+    text-align: center;
+}
+.location iframe
+{
+    height: 400px;
+}
+.location footer
+{
+    background-color: black;
+    padding: 5px;
+}
+.location footer p
+{
+    text-align: center;
+    color: rgb(200, 138, 22);
+    font-family: 'Allura';
+    font-size: 30px;
+}
